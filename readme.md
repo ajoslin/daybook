@@ -5,12 +5,18 @@ Take the effort out of journaling. Run `daybook` to effortlessly create a daily 
 
 ### Installation
 
-Put this in your `.bashrc`/`.zshrc`/`.whateverrc`:
+```
+npm install -g daybook
+```
+
+Then put this in your `.bashrc`/`.zshrc`/`.whateverrc`:
 
 ```sh
 export DAYBOOK_DIR=$HOME/my-daybook-entries
 export EDITOR=vim
 ```
+
+Then run `daybook`.
 
 ### Examples
 

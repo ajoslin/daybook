@@ -1,0 +1,139 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'i', '-g', 'daybook' ]
+2 info using npm@2.13.2
+3 info using node@v0.12.6
+4 verbose node symlink /usr/local/bin/node
+5 verbose install initial load of /usr/local/lib/package.json
+6 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+7 silly cache add args [ 'daybook', null ]
+8 verbose cache add spec daybook
+9 silly cache add parsed spec { raw: 'daybook',
+9 silly cache add   scope: null,
+9 silly cache add   name: 'daybook',
+9 silly cache add   rawSpec: '',
+9 silly cache add   spec: '*',
+9 silly cache add   type: 'range' }
+10 silly addNamed daybook@*
+11 verbose addNamed "*" is a valid semver range for daybook
+12 silly addNameRange { name: 'daybook', range: '*', hasData: false }
+13 silly mapToRegistry name daybook
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/daybook
+17 verbose addNameRange registry:https://registry.npmjs.org/daybook not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/daybook
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 22:43:10
+21 verbose request using bearer token for auth
+22 verbose request id df3c57c06518e08c
+23 http request GET https://registry.npmjs.org/daybook
+24 http 200 https://registry.npmjs.org/daybook
+25 silly get cb [ 200,
+25 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly get     etag: '"7GAVXTUPPC3MCULCG1TLWLAGK"',
+25 silly get     'content-type': 'application/json',
+25 silly get     'cache-control': 'max-age=60',
+25 silly get     'content-length': '2305',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Sun, 02 Aug 2015 05:43:10 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-lax1434-LAX',
+25 silly get     'x-cache': 'MISS',
+25 silly get     'x-cache-hits': '0',
+25 silly get     'x-timer': 'S1438494190.568762,VS0,VE48',
+25 silly get     vary: 'Accept' } ]
+26 verbose get saving daybook to /Users/andrew/.npm/registry.npmjs.org/daybook/.cache.json
+27 silly addNameRange number 2 { name: 'daybook', range: '*', hasData: true }
+28 silly addNameRange versions [ 'daybook', [ '1.0.0' ] ]
+29 silly addNamed daybook@1.0.0
+30 verbose addNamed "1.0.0" is a plain semver version for daybook
+31 silly cache afterAdd daybook@1.0.0
+32 verbose afterAdd /Users/andrew/.npm/daybook/1.0.0/package/package.json not in flight; writing
+33 verbose afterAdd /Users/andrew/.npm/daybook/1.0.0/package/package.json written
+34 silly install resolved [ { name: 'daybook',
+34 silly install resolved     main: 'index.js',
+34 silly install resolved     version: '1.0.0',
+34 silly install resolved     description: 'Write a daily journal entry in $EDITOR.',
+34 silly install resolved     license: 'MIT',
+34 silly install resolved     repository:
+34 silly install resolved      { type: 'git',
+34 silly install resolved        url: 'git+https://github.com/ajoslin/daybook.git' },
+34 silly install resolved     author:
+34 silly install resolved      { name: 'Andrew Joslin',
+34 silly install resolved        email: 'andrewtjoslin@gmail.com',
+34 silly install resolved        url: 'ajoslin.com' },
+34 silly install resolved     keywords: [ 'journal' ],
+34 silly install resolved     devDependencies: { tape: '^4.0.0', standard: '^4.0.0' },
+34 silly install resolved     files: [ 'index.js' ],
+34 silly install resolved     bin: { daybook: 'daybook.sh' },
+34 silly install resolved     readme: 'daybook\n----------\n\nTake the effort out of journaling. Run `daybook` to effortlessly create a daily entry in the right folder, with your editor.\n\n### Installation\n\nPut this in your `.bashrc`/`.zshrc`/`.whateverrc`:\n\n```sh\nexport DAYBOOK_DIR=$HOME/my-daybook-entries\nexport EDITOR=vim\n```\n\n### Examples\n\nIf today is August 25th, running `daybook` will open `~/my-daybook-entries/2015-08-25.txt` in vim:\n\n```sh\n$ daybook\n```\n\nTo open the daybook entry from May 15th, 2014:\n\n```sh\n$ daybook 2014-05-15\n```\n',
+34 silly install resolved     readmeFilename: 'readme.md',
+34 silly install resolved     gitHead: '346b5e5e2c1d1b56df342d94089fa75f25156442',
+34 silly install resolved     bugs: { url: 'https://github.com/ajoslin/daybook/issues' },
+34 silly install resolved     homepage: 'https://github.com/ajoslin/daybook#readme',
+34 silly install resolved     _id: 'daybook@1.0.0',
+34 silly install resolved     scripts: {},
+34 silly install resolved     _shasum: 'c45e6ed68ea6b1e0aca2f07752e5a1f1cd9e469f',
+34 silly install resolved     _from: 'daybook@*' } ]
+35 info install daybook@1.0.0 into /usr/local/lib
+36 info installOne daybook@1.0.0
+37 verbose installOne of daybook to /usr/local/lib not in flight; installing
+38 verbose lock using /Users/andrew/.npm/_locks/daybook-a824aaea5b3e05bb.lock for /usr/local/lib/node_modules/daybook
+39 silly install write writing daybook 1.0.0 to /usr/local/lib/node_modules/daybook
+40 verbose unbuild lib/node_modules/daybook
+41 silly gentlyRm /usr/local/lib/node_modules/daybook is being purged from base /usr/local
+42 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/daybook
+43 verbose tar unpack /Users/andrew/.npm/daybook/1.0.0/package.tgz
+44 verbose tar unpacking to /usr/local/lib/node_modules/daybook
+45 silly gentlyRm /usr/local/lib/node_modules/daybook is being purged
+46 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/daybook
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 silly gunzTarPerm extractEntry package.json
+49 silly gunzTarPerm extractEntry license
+50 silly gunzTarPerm extractEntry readme.md
+51 verbose write writing to /usr/local/lib/node_modules/daybook/package.json
+52 info preinstall daybook@1.0.0
+53 verbose readDependencies loading dependencies from /usr/local/lib/node_modules/daybook/package.json
+54 verbose readDependencies loading dependencies from /usr/local/lib/node_modules/daybook/package.json
+55 silly install resolved []
+56 verbose about to build /usr/local/lib/node_modules/daybook
+57 info build /usr/local/lib/node_modules/daybook
+58 info linkStuff daybook@1.0.0
+59 silly linkStuff daybook@1.0.0 has /usr/local/lib/node_modules as its parent node_modules
+60 silly linkStuff daybook@1.0.0 is part of a global install
+61 silly linkStuff daybook@1.0.0 is installed into a global node_modules
+62 silly linkStuff daybook@1.0.0 is installed into the top-level global node_modules
+63 verbose linkBins daybook@1.0.0
+64 verbose link bins [ { daybook: 'daybook.sh' }, '/usr/local/bin', true ]
+65 verbose linkMans daybook@1.0.0
+66 verbose rebuildBundles daybook@1.0.0
+67 verbose unlock done using /Users/andrew/.npm/_locks/daybook-a824aaea5b3e05bb.lock for /usr/local/lib/node_modules/daybook
+68 verbose stack Error: ENOENT, chmod '/usr/local/lib/node_modules/daybook/daybook.sh'
+68 verbose stack     at Error (native)
+69 verbose cwd /Users/andrew/dev/daybook
+70 error Darwin 14.3.0
+71 error argv "node" "/usr/local/bin/npm" "i" "-g" "daybook"
+72 error node v0.12.6
+73 error npm  v2.13.2
+74 error path /usr/local/lib/node_modules/daybook/daybook.sh
+75 error code ENOENT
+76 error errno -2
+77 error enoent ENOENT, chmod '/usr/local/lib/node_modules/daybook/daybook.sh'
+77 error enoent This is most likely not a problem with npm itself
+77 error enoent and is related to npm not being able to find a file.
+78 verbose exit [ -2, true ]
+79 verbose unbuild lib/node_modules/daybook
+80 info preuninstall daybook@1.0.0
+81 info uninstall daybook@1.0.0
+82 verbose unbuild rmStuff daybook@1.0.0 from /usr/local/lib/node_modules
+83 silly gentlyRm /usr/local/bin/daybook is being gently removed
+84 silly gentlyRm verifying /usr/local is an npm working directory
+85 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+86 silly gentlyRm deletion target /usr/local/bin/daybook is under /usr/local
+87 verbose gentlyRm vacuuming from /usr/local/bin/daybook up to /usr/local
+88 info postuninstall daybook@1.0.0
+89 silly gentlyRm /usr/local/lib/node_modules/daybook is being purged from base /usr/local
+90 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/daybook
+91 silly vacuum-fs purging /usr/local/lib/node_modules/daybook
+92 silly vacuum-fs quitting because other entries in /usr/local/lib/node_modules
