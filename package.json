@@ -1,0 +1,29 @@
+{
+  "name": "daybook",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Write a daily journal entry in $EDITOR.",
+  "license": "MIT",
+  "repository": "ajoslin/daybook",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "journal"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "bin": {
+    "daybook": "daybook.sh"
+  }
+}
